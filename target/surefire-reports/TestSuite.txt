@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 99.126 s <<< FAILURE! - in TestSuite
+Resonace.Test.TravelTest.setup  Time elapsed: 98.24 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: chrome not reachable
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'LTPRENTAL87', ip: '100.94.21.175', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+

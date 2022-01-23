@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="213842" started-at="2022-01-20T18:11:27 IST" finished-at="2022-01-20T18:15:01 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="213842" started-at="2022-01-20T18:11:27 IST" finished-at="2022-01-20T18:15:01 IST">
+      <class name="Resonace.Test.TravelTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Resonace.Test.TravelTest@140e5a13]" name="setup" is-config="true" duration-ms="51165" started-at="2022-01-20T18:11:27 IST" finished-at="2022-01-20T18:12:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifySearchforshoes()[pri:0, instance:Resonace.Test.TravelTest@140e5a13]" name="VerifySearchforshoes" duration-ms="159743" started-at="2022-01-20T18:12:18 IST" finished-at="2022-01-20T18:14:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchforshoes -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Resonace.Test.TravelTest@140e5a13]" name="Teardown" is-config="true" duration-ms="2754" started-at="2022-01-20T18:14:58 IST" finished-at="2022-01-20T18:15:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Resonace.Test.TravelTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
