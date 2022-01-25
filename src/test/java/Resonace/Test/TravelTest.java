@@ -47,4 +47,9 @@ public class TravelTest extends ResonanceBeforeAndAfterMenthod {
 	
 		
 	}
+	@Test
+	public void Tocheckstatus() {
+		
+		System.out.println("My Test Cases");
+	}
 }
