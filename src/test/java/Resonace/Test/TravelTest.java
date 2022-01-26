@@ -29,7 +29,7 @@ public class TravelTest extends ResonanceBeforeAndAfterMenthod {
 	Thread.sleep(2000);
 	}
 	@Test
-	public void VerifySearchforshoes() {
+	public void VerifySearchforshoes() throws InterruptedException {
 		KeywordResonance.launchUrl("https://www.flipkart.com/");
 		WaitFor(5000);
 		Click(LocaterType.xpath,"//button[@class='_2KpZ6l _2doB4z']");
@@ -41,15 +41,15 @@ public class TravelTest extends ResonanceBeforeAndAfterMenthod {
 		EnterText(LocaterType.xpath, "//input[@placeholder='Search for products, brands and more']", "shoes");
 		WaitFor(5000);
 		LOG.info("Search for the enter product");
-		WaitFor(5000);
+		WaitFor(2000);
 		
-		Click(LocaterType.xpath,"//button[@type='submit']");
-	
+		Click(LocaterType.xpath,"//body/div[@id='container']/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[1]/button[1]/*[1]");
+		Thread.sleep(2000);
+		Click(LocaterType.xpath,"//body/div[@id='container']/div[1]/div[2]/div[1]/div[1]/span[1]");
+	    Thread.sleep(2000);
+		Click(LocaterType.xpath,"//body/div[@id='container']/div[1]/div[2]/div[1]/div[1]/span[1]/*[1]");
+	    
 		
-	}
-	@Test
-	public void Tocheckstatus() {
-		
-		System.out.println("My Test Cases");
 	}
 }
+	
