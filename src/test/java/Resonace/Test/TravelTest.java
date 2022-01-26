@@ -46,8 +46,7 @@ public class TravelTest extends ResonanceBeforeAndAfterMenthod {
 		Click(LocaterType.xpath,"//body/div[@id='container']/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[1]/button[1]/*[1]");
 		Thread.sleep(2000);
 		Click(LocaterType.xpath,"//body/div[@id='container']/div[1]/div[2]/div[1]/div[1]/span[1]");
-	    Thread.sleep(2000);
-		Click(LocaterType.xpath,"//body/div[@id='container']/div[1]/div[2]/div[1]/div[1]/span[1]/*[1]");
+	    
 	    
 		
 	}
