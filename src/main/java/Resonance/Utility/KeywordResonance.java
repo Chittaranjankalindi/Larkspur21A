@@ -28,7 +28,7 @@ public class KeywordResonance {
 	 * <li>internetExplorer</li>
 	 * </ul>
 	 */
-	public static void OpenBrowser(String BrowserName) {
+	public static RemoteWebDriver OpenBrowser(String BrowserName) {
 	
 		if(BrowserName.equalsIgnoreCase("chrome")) {
 			ChromeOptions option=new ChromeOptions();
@@ -51,6 +51,7 @@ public class KeywordResonance {
 	    LOG.info(BrowserName+"Browser has successfully Launched");
 
 		Wait=new WebDriverWait(driver, Duration.ofMillis(3000));
+		return driver;
         }
 
 /*
@@ -59,6 +60,7 @@ public class KeywordResonance {
        public static  void launchUrl(String url) {
 		
 		driver.get(url);
+		driver.manage().window().maximize();
 	    }
        
  /*
@@ -133,7 +135,7 @@ public class KeywordResonance {
               
        
 /*
- * This Method is used to Wait       
+ * This Method is used to Wait in millisecound       
  */
        public static  void WaitFor(long Duration){
     	   try {
@@ -147,6 +149,11 @@ public class KeywordResonance {
        }
 	public static void CloseBrowser() {
 		driver.close();
+		
+	}
+
+	public void waitForPresenceOfElement(WebElement element) {
+	
 		
 	}
 	
